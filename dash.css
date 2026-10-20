@@ -1,0 +1,194 @@
+body {
+    background-color: rgb(237, 243, 240);
+
+}
+
+p {
+    font-size: 30px;
+    height: 30px;
+}
+
+.masterheading {
+    background-color: rgb(243, 30, 30);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    border: 2px solid black;
+    
+
+}
+
+.dashboard {
+    background-color: blueviolet;
+    height: 100px;
+    width: 10%;
+}
+
+.search {
+    background-color: brown;
+    height: 100;
+    width: 60%;
+    ;
+}
+
+.help {
+    background-color: yellow;
+    height: 100px;
+    width: 10%;
+
+}
+.about{
+    background-color: blue;
+    height:100px;
+    width:10%;
+}
+.support{
+    background-color: rgb(163, 90, 90);
+    height: 100px;
+    width:10% ;
+}
+
+.masterheading2{
+    background-color:yellowgreen;
+    /* height: 400px; */
+    width: 100%;
+    display:flex;
+     border: 2px solid black;
+      
+}
+.img1{
+    /* background-color: pink; */
+    height: 400px;
+    width: 25%;
+     padding: 20px;
+
+   
+}
+.im{
+    border: 2px solid black;
+}
+.img11{
+    /* background-color: rgb(232, 136, 19); */
+    height:350px;
+    width: 100%;
+   
+
+}
+.text{
+    /* background-color: cornflowerblue; */
+    /* height: 50; */
+    width: 100%;
+   font-size: larger;
+   text-align: center;
+   padding: 20px 0px;
+}
+
+.img2{
+    /* background-color: pink; */
+    height: 400px;
+    width: 25%;
+     padding: 20px;
+
+   
+}
+.im{
+    border: 2px solid black;
+}
+.img22{
+    /* background-color: rgb(232, 136, 19); */
+    height:350px;
+    width: 100%;
+   
+
+}
+.text{
+    /* background-color: cornflowerblue; */
+    /* height: 50; */
+    width: 100%;
+   font-size: larger;
+   text-align: center;
+   padding: 20px 0px;
+}.img3{
+    /* background-color: pink; */
+    height: 400px;
+    width: 25%;
+     padding: 20px;
+
+   
+}
+.im{
+    border: 2px solid black;
+}
+.img33{
+    /* background-color: rgb(232, 136, 19); */
+    height:350px;
+    width: 100%;
+   
+
+}
+.text{
+    /* background-color: cornflowerblue; */
+    /* height: 50; */
+    width: 100%;
+   font-size: larger;
+   text-align: center;
+   padding: 20px 0px;
+}.img4{
+    /* background-color: pink; */
+    height: 400px;
+    width: 25%;
+     padding: 20px;
+
+   
+}
+.im{
+    border: 2px solid black;
+}
+.img44{
+    /* background-color: rgb(232, 136, 19); */
+    height:350px;
+    width: 100%;
+   
+
+}
+.text{
+    /* background-color: cornflowerblue; */
+    /* height: 50; */
+    width: 100%;
+   font-size: larger;
+   text-align: center;
+   padding: 20px 0px;
+}
+/* .img2{
+    background-color: black;
+    height: 400px;
+    width: 25%;
+}
+.img22{
+    background-color: rgb(19, 51, 232);
+    height:350px;
+    width: 100%;
+}
+    
+.img3{
+    background-color: cyan;
+    height: 400px;
+    width: 25%;
+   
+}
+.img33{
+    background-color: rgb(29, 196, 10);
+    height:350px;
+    width: 100%;
+}
+.img4{
+    background-color:violet;
+    height: 400px;
+    width: 25%;
+  
+}
+.img44{
+    background-color: rgb(172, 6, 40);
+    height:350px;
+    width: 100%;
+} */
