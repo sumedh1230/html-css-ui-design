@@ -1,100 +1,167 @@
-<!DOCTYPE html>
+<html>
 
 <head>
         <style>
-                .form {
-                       
-                        text-align: center;
-                        background-image: url("formback.jpg");
-                          height: 100%;
+                body {
+                        background-image: url("test.jpg");
                         background-repeat: no-repeat;
-                          background-size: 100% 100%;
+                        background-size: 100% 100%;
+                }
+
+                .form {
+
+                        text-align: center;
+
+
+
                         background-position: center;
                         margin-top: 130px;
 
-                         
-                      
-                       
+
+
+
                 }
-                .elements{
-                        
-                       background-image:url("form2back.avif") ;
+
+                .elements {
+
+                        background-image: url("form2back.avif");
+                        height: 500px;
+                        width: 400px;
+                        border-radius: 50px;
                         background-position: center;
                         text-align: center;
                         background-repeat: no-repeat;
+                        margin-left: 550px;
+
+
+
+
+
+
+                }
+
+
+                .form-row {
+                        justify-content: space-between;
+                        text-align: center;
+                        display: flex;
+                        padding: 3px;
+
+
+
                         
+                       
+                        align-items: center;
+                       
+                        text-align: left;
                 }
         </style>
 </head>
 
 <body>
         <div class="form">
-                
-                                <form>
-                                        <div class="elements">
-                                                 <h3>new fome<h3>
-                                        <label>Email</label>
-                                        <input type="email" placeholder="enter the email">
-                                        <br>
-                                        <label>telphone</label>
-                                        <input type="tel" placeholder="enter the number ">
-                                        <br>
-                                        <label>name</label>
-                                        <input type="text" placeholder="enter the number ">
-                                        <br>
-                                        <label>password</label>
-                                        <input type="password" placeholder="enter the password">
-                                        <br>
-                                        <label>url</label>
-                                        <input type="url" placeholder="enter the url">
-                                        <br>
-                                        <label>search</label>
-                                        <input type="search">
-                                        <br>
-                                        <label>date</label>
-                                        <input type="date">
-                                        <br>
-                                        <label>time</label>
-                                        <input type="time">
-                                        <br>
-                                        <label>datetime</label>
-                                        <input type="datetime-local">
-                                        <br>
-                                        <label>month</label>
-                                        <input type="month">
-                                        <br>
-                                        <label>week</label>
-                                        <input type="week">
-                                        <br>
-                                        <label>file</label>
-                                        <input type="file">
-                                        <br>
-                                        <label>checkbox</label>
-                                        <input type="checkbox">
-                                        <br>
-                                         <label>radio</label>
-                                                <input type="radio">
-                                                <br>
-                                                <label>range</label>
-                                                <input type="range">
-                                                <br>
-                                                <label>color</label>
-                                                <input type="color">
-                                                <br>
-                                                <label>hidden</label>
-                                                <input type="hidden">
-                                                <br>
 
-                                                <input type="submit">
-                                                
+                <form method="get ">
+                        <div class="elements">
+                                <h3>new fome<h3>
+                                                <div class="form-row">
+                                                        <label>Email</label>
+                                                        <input type="email" name="Email" placeholder="enter the email ">
+                                                        <br>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label>telphone</label>
+                                                        <input type="tel" placeholder="enter the number ">
+                                                        <br>
+                                                </div>
+                                                <div class="form-row"> <label>name</label>
+                                                        <input type="text" name="name" placeholder="enter the number "
+                                                                minlength="3" tittle="eneter the name or lastname"
+                                                                required>
+                                                        <br>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label>password</label>
+                                                        <input type="password" placeholder="enter the password">
+                                                        <br>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label>url</label>
+                                                        <input type="url" placeholder="enter the url">
+                                                        <br>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label>search</label>
+                                                        <input type="search">
+                                                        <br>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label>date</label>
+                                                        <input type="date">
+                                                        <br>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label>time</label>
+                                                        <input type="time">
+                                                        <br>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label>datetime</label>
+                                                        <input type="datetime-local">
+                                                        <br>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label>month</label>
+                                                        <input type="month">
+                                                        <br>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label>week</label>
+                                                        <input type="week">
+                                                        <br>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label>file</label>
+                                                        <input type="file">
+                                                        <br>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label>indian</label>
+                                                        <input type="checkbox" id="yes" name="indian">
+                                                        <label for="yes">yes</label>
 
-                                                <input type="reset">
+                                                        <input type="checkbox" id="no" name="indian">
+                                                        <label for="NO">NO</label>
+                                                        <br>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label>Gender</label>
+                                                        <input type="radio" id="female" name="Gender">
+                                                        <label for="female">female</label>
 
-                                                
+                                                        <input type="radio" id="male" name="Gender">
+                                                        <label for="male">male</label>
+
+
+                                                        <br>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label>range</label>
+                                                        <input type="range">
+                                                        <br>
                                                 </div>
 
 
-                                </form>
+                                                <input type="submit">
+
+
+                                                <input type="reset">
+
+
+                        </div>
+
+
+                </form>
         </div>
 
 </body>
