@@ -1,0 +1,236 @@
+<html>
+
+<head>
+    <style>
+        .box1 {
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px;
+            ;
+
+            display: inline-block;
+        }
+
+        .fadeIn {
+            animation: 10s fadeIn infinite;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .box2 {
+            background-color: rgb(239, 69, 12);
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+        }
+
+        .fadeOut {
+            animation: 10s fadeOut infinite;
+        }
+
+
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+            }
+        }
+
+        .box3 {
+            background-color: rgb(239, 69, 12);
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+        }
+
+        .zoomIn {
+            animation: 10s zoomIn infinite;
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0)
+            }
+
+            to {
+                transform: scale(1);
+            }
+
+        }
+
+        .box4 {
+            background-color: rgb(239, 69, 12);
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+        }
+
+        .zoomOut {
+            animation: 10s zoomOut infinite;
+        }
+
+        @keyframes zoomOut {
+            from {
+                transform: scale(1)
+            }
+
+            to {
+                transform: scale(0)
+            }
+
+        }
+
+        .box5 {
+            background-color: yellowgreen;
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+
+        }
+
+        .rotate {
+            animation: 10s rotate linear;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(360deg);
+            }
+        }
+
+        .pulse {
+            animation: 1s pulse infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .slide-left {
+            animation: 4s slideLeft infinite;
+        }
+
+        @keyframes slideLeft {
+            from {
+                transform: translateX(100px);
+            }
+
+            to {
+                transform: translateX(0px);
+            }
+        }
+
+        .slide-right {
+            animation: 4s slideRight infinite;
+        }
+
+        @keyframes slideRight {
+            from {
+                transform: translate-x(100px);
+            }
+
+            to {
+                transform: translate-x(opx);
+            }
+        }
+
+        .box6 {
+            background-color: rgb(219, 29, 54);
+            height: 100px;
+            width: 100px;
+
+        }
+
+        .slide-up {
+            animation: 4s slideUp infinite;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translatey(100px);
+            }
+
+            to {
+                transform: translatey(0px);
+            }
+        }
+
+        .slide-down {
+            animation: 3s slideDown infinite;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100px);
+            }
+
+            to {
+                transform: translateY(0px);
+            }
+        }
+
+
+        .bounce {
+            animation: 2s bounce infinite;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translatey(0);
+            }
+
+            50% {
+                transform: translatey(-100px);
+            }
+
+            100% {
+                transform: translatey(0px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box1 fadeIn">
+
+    </div>
+    <div class="box2 fadeOut"></div>
+    <div class="box3 zoomIn"></div>
+    <div class="box4 ZoomOut"></div>
+    <div class=" box5 rotate"></div>
+    <div class="box5 pulse"></div>
+    <div class="box5 slide-left"></div>
+    <div class="box5 slide-right"></div>
+    <br><br>
+    <div class="box6 slide-up"></div>
+    <br><br>
+    <div class="box6 slide-down"></div>
+    <div class="box6 bounce"></div>
+
+
+
+</body>
+
+</html>
