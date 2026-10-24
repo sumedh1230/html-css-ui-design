@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+  
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    
+}

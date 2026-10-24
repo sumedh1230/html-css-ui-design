@@ -208,6 +208,23 @@
                 transform: translatey(0px);
             }
         }
+        .shake{
+            animation: 2s shake infinite;
+        }
+        @keyframes shake{
+            0%{transform: translateX(100px);}
+            25%{transform: translatex(-100px);}
+            50%{transform: translatex(100px);}
+            75%{transform: translate(-100px);}
+            100%{transform: translate(100px);}
+        }
+        .Flip{
+            animation: 5s Flip infinite;
+        }
+        @keyframes Flip{
+            from{transform: rotatey(0deg);}
+            to{transform: rotateY(360deg);}
+        }
     </style>
 </head>
 
@@ -228,6 +245,8 @@
     <br><br>
     <div class="box6 slide-down"></div>
     <div class="box6 bounce"></div>
+     <div class="box6 shake"></div>
+     <div class="box6 Flip"></div>
 
 
 
